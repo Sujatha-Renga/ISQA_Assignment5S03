@@ -74,6 +74,7 @@ class WorkOrderList(LoginRequiredMixin, ListView):
 class WorkOrderList1(LoginRequiredMixin, ListView):
     template_name = "workorder_list.html"
     model = WorkOrder
+    paginate_by = 4
 
     def get_context_data(self, **kwargs):
         context = super(WorkOrderList1, self).get_context_data(**kwargs)
@@ -84,6 +85,7 @@ class WorkOrderList1(LoginRequiredMixin, ListView):
 class WorkOrderList2(LoginRequiredMixin, ListView):
     template_name = "workorder_list.html"
     model = WorkOrder
+    paginate_by = 4
 
     def get_context_data(self, **kwargs):
         context = super(WorkOrderList2, self).get_context_data(**kwargs)
