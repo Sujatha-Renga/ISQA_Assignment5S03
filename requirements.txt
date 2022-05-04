@@ -5,3 +5,4 @@ sqlparse==0.4.2
 tzdata==2022.1
 django-crispy-forms
 reportlab~=3.6.9
+matplotlib
