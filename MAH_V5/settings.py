@@ -121,7 +121,7 @@ USE_TZ = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'user.ExtUser'
-LOGIN_REDIRECT_URL = 'workorder_list'
+LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 
 # LOGIN_URL = '/user/login/'
